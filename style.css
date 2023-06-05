@@ -340,5 +340,19 @@ p {
        font-size: 18px; 
        margin-right: 10px;
     }
+        .fourth {
+        right: 5%;
+    }
+    .third {
+        right: 5%;
+    }
+
+    .second {
+        right: 5%;
+    }
+
+    .first {
+        right: 5%;
+    }
 }
 
