@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+
+.section-first {
+background-color: black;
+}
+
+.section-second {
+    background-color: black;
+}
+
+.section-third {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin:0 auto;
+    padding:10px 10px;
+    gap: 100px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin:0 auto;
+    padding:10px 10px;
+    gap: 100px; 
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin:0 auto;
+    padding:10px 10px;
+    gap: 100px; 
+}
+
+.button {
+    position: absolute;
+    border: solid red;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 260px;
+    top: 20px;
+    left: 0;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    text-align: end;
+    font-size: 1.8rem;
+    color: #f80505;
+}
+
+.cap {
+    margin-top: 85%;
+    font-size: 1.7rem; 
+    color: blue;
+}
+
+.visionn {
+    color: yellow;
+}
+
+.hulk {
+    color: green;
+}
+
+p {
+    position: absolute;
+    color: rgb(243, 7, 7);
+    text-decoration: none;
+    font-size: 38px;
+    text-align: center;
+    right: 42%;
+    top: 50%;
+}
+
+.first {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border:solid red;
+    border-radius: 10px;
+    background-image: url(assets/images/iron.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second {
+    position: relative;
+    width:300px;
+    height: 300px;
+    border:solid red;
+    border-radius: 10px;
+    background-image: url(assets/images/vision.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border:solid red;
+    border-radius: 10px;
+    background-image: url(assets/images/Cap.png); 
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fourth {
+    position: relative;
+    width:300px;
+    height: 300px;
+    border:solid red;
+    border-radius: 10px;
+    background-image: url(assets/images/HULK.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fifth {
+    position: relative;
+    border-radius: 10px 10px 20px 20px;
+    width: 1350px;
+    height: 300px;
+    border: solid red;
+    background-color:rgb(0, 0, 0);
+    background-image:url(assets/images/Spidy.png);
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.section-header {
+background-color:black;
+}
+
+.header {
+background-image: url(assets/images/Awengers.png);
+background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+position: sticky;    
+background-color: rgb(0, 0, 0);
+border: solid red;
+width: 1350px;
+height: 150px;
+display: flex;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 1350px;
+    margin:0 auto;
+    padding:10px 10px;
+    gap: 50px;  
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    color: red;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    width: 120px;
+    height: 120px;  
+    background-size: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.logo:hover {
+ transform: rotate(360deg);
+}
+
+
+nav {
+    display: none;
+}
+
+.div-with-background {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+.div-with-background::before,
+.div-with-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.div-with-background::before {
+    background-image:url(assets/images/thor.png);
+    background-size:40%;
+    background-position: left;
+    left: 2%;
+}
+
+.avengers1 {
+    position: absolute;
+    background-image: url(assets/images/Avengers1.png);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 40%;
+}
+
+@media all and (max-width:768px) {
+
+.container {
+display: flex;
+flex-wrap:wrap;
+gap: 5px;
+    }
+
+    .header {
+        position: relative;
+        display: flex;
+        width: 500px;
+        height: 300px;
+    }
+
+    .nav {
+        position: absolute;
+        top:0;
+        right: 2%;
+    }
+
+    .logo {
+        position: inherit;
+    }
+
+    .avengers1 {
+        display: none;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+    .div-with-background::before {
+        display: none;
+    }
+.fifth {
+    background-image: url(assets/images/Avengers1.png);
+}
+    
+}
+
+    
+
+@media all and (max-width:400px) {
+    .container {
+        display: flex;
+        flex-wrap:wrap;
+}
+
+.cap,.visionn,.hulk,.ironman {
+    font-size: 1.2rem;
+}
+
+.button {
+    left: 67%;
+    top: 65%;
+}
+
+}
